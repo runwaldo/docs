@@ -16,7 +16,6 @@ Alternatively, place credentials directly into the Node Source plugin.
 
 The plugin offers some **Quick Filters** to gather specific server types from the CMDB.
 
-- all : Retrieve all types of servers
 - linux : Retrieve only linux machines
 - win : Retrieve only Windows machines
 - unix : Retrieve only unix machines
@@ -26,7 +25,6 @@ The plugin offers some **Quick Filters** to gather specific server types from th
 - hpux: Retrieve only HPUX machines
 - osx: Retrieve only OSX machines
 - netware: Retrieve only Netware machines
-- comma separated list : as example 'linux,win'
 
 > The Quick Filters above are equivalent to a filter of `sys_class_name=cmdb_ci_linux_server` where the "linux" is replaced with the value above.
 
